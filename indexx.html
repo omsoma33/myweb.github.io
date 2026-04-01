@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MIT Vishwaprayag University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav id="navbar">
+  <h1>MITVPU</h1>
+  <ul>
+    <li onclick="scrollToSection('home')">Home</li>
+    <li onclick="scrollToSection('courses')">Courses</li>
+    <li onclick="scrollToSection('about')">About</li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div>
+    <h2 id="typing"></h2>
+    <p>Innovating Education with Technology & AI</p>
+    <button class="btn" onclick="showAlert()">Explore Now</button>
+  </div>
+</section>
+
+<section class="section" id="courses">
+  <h2>Our Programs</h2>
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://source.unsplash.com/300x200/?technology" />
+      <h3>B.Tech</h3>
+      <p>AI, Data Science, Cyber Security</p>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/300x200/?computer" />
+      <h3>BCA</h3>
+      <p>Software Development & IT</p>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/300x200/?business" />
+      <h3>MBA</h3>
+      <p>Business & Management</p>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/300x200/?design" />
+      <h3>B.Des</h3>
+      <p>Creative & Product Design</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>
+    MIT Vishwaprayag University focuses on innovation, research,
+    and industry-ready education.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 MITVPU | Designed by You</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
